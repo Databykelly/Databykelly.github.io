@@ -12,8 +12,7 @@
   EDIT GUIDE (search for these in your editor and replace):
   [YOUR EMAIL]  [YOUR LINKEDIN]  [YOUR GITHUB]  [RESUME LINK]
   [HOOK]  [TARGET ROLE]  [CITY / REMOTE]  [KEY FINDING 1/2/3]
-  [PROJECT 2 NAME]  [PROJECT 2 PURPOSE]  [PROJECT 3 TOOLS]
-  [GITHUB LINK 1] [WRITE-UP LINK] [LIVE DASHBOARD LINK] [PROJECT 3 LINK]
+  [GITHUB LINK 1] [WRITE-UP LINK]
   Images go in /images: photo.jpg, project1.png, project2.png, project3.png, resume.pdf
 -->
 <style>
@@ -54,8 +53,9 @@ main p{font-size:17px;line-height:1.65;color:var(--body);margin:0 0 10px;max-wid
 .proj p{font-size:15px;margin:0 0 10px}
 .proj img{width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;border-radius:10px;background:var(--ph);border:1px solid var(--line)}
 .lnk{font-weight:700;font-size:15px;min-height:44px;display:inline-flex;align-items:center;margin-right:18px}
-.cta{margin-top:40px;display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between}
-.cta div{font-size:22px;font-weight:800}
+.cta{margin-top:56px;padding:56px 24px 16px;background:var(--panel);color:var(--ink);display:flex;flex-direction:column;align-items:center;gap:24px;text-align:center}
+.cta h2{margin:0;font-size:30px;max-width:24ch}
+.btn.big{font-size:18px;padding:18px 48px;min-height:56px;border-radius:999px}
 @media (max-width:900px){
  .shell{grid-template-columns:1fr}
  .side{position:static;min-height:0}
@@ -84,8 +84,6 @@ main p{font-size:17px;line-height:1.65;color:var(--body);margin:0 0 10px;max-wid
  <nav aria-label="Jump to project">
   <div class="lbl" style="margin-bottom:6px">JUMP TO PROJECT</div>
   <a class="jump" href="#p1"><span>01</span>Nigeria public revenue</a>
-  <a class="jump" href="#p2"><span>02</span>Power BI dashboards</a>
-  <a class="jump" href="#p3"><span>03</span>Credit risk &amp; loans</a>
  </nav>
 </aside>
 
@@ -116,33 +114,11 @@ main p{font-size:17px;line-height:1.65;color:var(--body);margin:0 0 10px;max-wid
   <img src="images/project1.png" alt="Chart from the Nigeria public revenue allocation analysis" loading="lazy">
  </section>
 
- <section id="p2" class="proj">
-  <div>
-   <div class="lbl">PROJECT 02 · POWER BI</div>
-   <h3>[PROJECT 2 NAME]</h3>
-   <p><b>Purpose:</b> [PROJECT 2 PURPOSE]</p>
-   <p><b>Key finding:</b> [KEY FINDING 2]</p>
-   <p class="lbl">Power BI · DAX · Excel</p>
-   <a class="lnk" href="[LIVE DASHBOARD LINK]">Open dashboard →</a>
-  </div>
-  <img src="images/project2.png" alt="Power BI dashboard screenshot" loading="lazy">
- </section>
 
- <section id="p3" class="proj">
-  <div>
-   <div class="lbl">PROJECT 03 · CREDIT RISK</div>
-   <h3>Banking Credit Risk &amp; Loan Portfolio Analysis</h3>
-   <p><b>Purpose:</b> Assess credit risk across a loan portfolio and identify which segments drive defaults.</p>
-   <p><b>Key finding:</b> [KEY FINDING 3]</p>
-   <p class="lbl">[PROJECT 3 TOOLS]</p>
-   <a class="lnk" href="[PROJECT 3 LINK]">View project →</a>
-  </div>
-  <img src="images/project3.png" alt="Credit risk and loan portfolio view" loading="lazy">
- </section>
 
  <div class="cta">
-  <div>Open to [TARGET ROLE] roles. Let's talk.</div>
-  <a class="btn p" href="mailto:[YOUR EMAIL]">Email me</a>
+  <h2>Wondering how you can make the best decisions using your data?</h2>
+  <a class="btn p big" href="mailto:[YOUR EMAIL]">Get in touch</a>
  </div>
 </main>
 
